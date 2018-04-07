@@ -1,3 +1,4 @@
+library(e1071)  # Library for creating a naive-bayes model
 library(caret)  # Library to import ConfusionMatrix
 data = read.csv("C:/Users/satyam/Desktop/loan_prediction.csv")  #Importing the data
 head(data)
